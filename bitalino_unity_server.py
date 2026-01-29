@@ -18,7 +18,7 @@ from bitalino import BITalino
 macAddress   = "98:D3:71:FE:50:80"
 samplingRate = 1000
 nSamples     = 100
-acqChannels  = [0, 1, 2, 3, 4, 5]   # A1~A6
+acqChannels  = [0, 1, 2]   # A1~A3
 
 sensor_labels = ["A1 (EMG)", "A2 (EDA)", "A3 (ECG)"]
 
