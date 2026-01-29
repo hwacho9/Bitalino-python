@@ -7,7 +7,8 @@ from bitalino import BITalino
 # -----------------------------------------------------------------------------
 # 사용자 설정 (User Configuration)
 # -----------------------------------------------------------------------------
-macAddress = "COM3"  # Windows COM Port (Outgoing)
+# macAddress = ""  # Windows COM Port (Outgoing)
+macAddress   = "98:D3:71:FE:50:80"
 samplingRate = 1000
 nSamples = 100  # 한 번에 읽을 샘플 수
 
