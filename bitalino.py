@@ -101,11 +101,7 @@ class BITalino(object):
                 raise Exception(ExceptionCode.INVALID_PARAMETER)
         if checkMatch:
             if platform.system() == "Windows" or platform.system() == "Linux":
-                try:
-                    import bluetooth
-                except Exception as e:
-                    raise Exception(ExceptionCode.IMPORT_FAILED + str(e))
-                self.socket = bluetooth.BluetoothSocket(bluetooth.RFCOMM)
+                self.socket = socket.socket(socket.AF_BLUETOOTH, socket.SOCK_STREAM, socket.BTPROTO_RFCOMM)
                 self.socket.connect((macAddress, 1))
                 self.wifi = False
                 self.serial = False
