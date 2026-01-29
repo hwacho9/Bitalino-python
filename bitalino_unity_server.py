@@ -20,7 +20,7 @@ samplingRate = 1000
 nSamples     = 100
 acqChannels  = [0, 1, 2, 3, 4, 5]   # A1~A6
 
-sensor_labels = ["A1 (EMG)", "A2 (EDA)", "A3 (ECG)", "A4", "A5", "A6"]
+sensor_labels = ["A1 (EMG)", "A2 (EDA)", "A3 (ECG)"]
 
 view_window  = 1000   # 그래프에 보여줄 샘플 개수
 
