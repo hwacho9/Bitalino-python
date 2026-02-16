@@ -1,0 +1,20 @@
+============================================================
+BITalino Phase Classification Report
+============================================================
+
+Best Model: Random Forest
+Accuracy: 0.6774
+F1-Score: 0.6655
+
+Classification Report:
+------------------------------------------------------------
+              precision    recall  f1-score   support
+
+    BASELINE       0.58      0.88      0.70         8
+       CHASE       0.83      0.71      0.77         7
+      PUZZLE       0.67      0.75      0.71         8
+        TASK       0.75      0.38      0.50         8
+
+    accuracy                           0.68        31
+   macro avg       0.71      0.68      0.67        31
+weighted avg       0.70      0.68      0.67        31

@@ -1,0 +1,9 @@
+subject,accuracy,BASELINE_correct,CHASE_correct,PUZZLE_correct,TASK_correct
+hase1,0.5,1.0,0.0,1.0,0.0
+hase2,1.0,1.0,1.0,1.0,1.0
+ishikawa,0.75,1.0,1.0,1.0,0.0
+masaya,0.3333333333333333,1.0,,0.0,0.0
+matsumoto,0.5,1.0,0.0,1.0,0.0
+sensei,0.5,1.0,1.0,0.0,0.0
+takamiya,0.75,0.0,1.0,1.0,1.0
+takamiya2,1.0,1.0,1.0,1.0,1.0
